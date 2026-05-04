@@ -1,0 +1,67 @@
+MIT License
+
+Copyright (c) 2026 Richard J. Young and Gregory D. Moody
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software, dataset, and associated documentation files (the "Work"),
+to deal in the Work without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+sell copies of the Work, and to permit persons to whom the Work is furnished
+to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Work.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS
+IN THE WORK.
+
+================================================================
+NOTICE ON UPSTREAM SOURCES
+================================================================
+
+The Work consolidates prompts from four upstream benchmarks. The authors'
+own contributions (pipeline source code, consensus labels, Fleiss' kappa
+analysis) are released under the MIT License above. Prompts drawn from
+upstream sources remain subject to the terms of their upstream licenses:
+
+  RMCBench      (Chen et al. 2024)     — no explicit license in upstream repo;
+                                         included here under research-use fair-use
+                                         subject to takedown on request
+  MalwareBench  (Li et al. 2025)       — no explicit license in upstream repo;
+                                         included here under research-use fair-use
+                                         subject to takedown on request
+  CySecBench    (Wahreus et al. 2025)  — MIT License (compatible)
+  AdvBench      (Zou et al. 2023)      — MIT License (compatible)
+
+See LICENSING_NOTES.md for full details. If you are an author of any
+upstream source and wish your prompts redacted from this release, contact
+ryoung@unlv.edu. We commit to removing prompt text (keeping only UIDs and
+consensus labels) within 30 days of any such request.
+
+================================================================
+NOTICE ON ACCESS (GATED PROMPT-TEXT DATASET)
+================================================================
+
+Prompt text for this artifact is not distributed through this repository.
+It is hosted on the Hugging Face Hub as a gated-access dataset at
+https://huggingface.co/datasets/richardyoung/code-safety-prompt-bank.
+
+Gating is a dual-use mitigation step consistent with the extreme-risk
+evaluation framework of Shevlane et al. (2023). Access to prompt text is
+granted on request to bona fide researchers engaged in refusal-rate
+benchmarking, safety-alignment research, interpretability work, and related
+defensive applications. This repository's MIT License does NOT extend to the
+prompt text of the dataset; access to prompt text is governed by the gating
+policy on the Hugging Face Hub together with the upstream-source licenses
+described above.
+
+Use of the artifact --- whether through this repository or the gated
+Hugging Face dataset --- to fine-tune, distill, or train language models
+toward increased malicious-code production, to operationalize attacks, or
+to evade safety filters in deployed systems is explicitly prohibited
+regardless of license or access tier.

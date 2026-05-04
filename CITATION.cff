@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+title: "Code-Safety Prompt Bank"
+message: "If you use this dataset or the accompanying pipeline, please cite the paper below."
+type: dataset
+authors:
+  - family-names: Young
+    given-names: Richard J.
+    affiliation: "Department of Information Systems, University of Nevada Las Vegas"
+    email: ryoung@unlv.edu
+    orcid: "0000-0002-1109-7552"
+  - family-names: Moody
+    given-names: Gregory D.
+    affiliation: "Department of Information Systems, University of Nevada Las Vegas"
+    email: greg.moody@unlv.edu
+version: "1.0.0"
+date-released: "2026-04-20"
+url: "https://huggingface.co/datasets/richardyoung/code-safety-prompt-bank"
+repository-code: "https://github.com/ricyoung/code-safety-prompt-bank"
+license: "MIT"  # scope: this repository only (code, labels, metadata, docs).
+                # Prompt text is hosted as a gated-access dataset on Hugging Face
+                # under mixed upstream terms — see LICENSE and LICENSING_NOTES.md.
+keywords:
+  - AI safety
+  - LLM safety
+  - malicious code generation
+  - refusal
+  - benchmark
+  - Fleiss kappa
+  - multi-judge consensus
+preferred-citation:
+  type: article
+  title: "A Validated Prompt Bank for Malicious Code Generation: Separating Executable Weapons from Security Knowledge in 1,554 Consensus-Labeled Prompts"
+  authors:
+    - family-names: Young
+      given-names: Richard J.
+    - family-names: Moody
+      given-names: Gregory D.
+  year: 2026
+  notes: "Manuscript in preparation; arXiv identifier to be assigned upon submission."
