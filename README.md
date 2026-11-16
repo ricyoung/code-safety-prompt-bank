@@ -4,7 +4,7 @@
 
 **Paper**: *A Validated Prompt Bank for Malicious Code Generation* — Young, R.J. and Moody, G.D. (2026)
 **Code + labels + metadata (openly public, MIT)**: this repository.
-**Prompt-text dataset (gated access, mixed upstream terms)**: [Hugging Face — richardyoung/code-safety-prompt-bank](https://huggingface.co/datasets/richardyoung/code-safety-prompt-bank). Gating is a dual-use mitigation step; access is granted on request for refusal-rate benchmarking, safety-alignment research, interpretability work, and related defensive applications.
+**Prompt-text dataset (gated access, mixed upstream terms)**: [Hugging Face — richardyoung/code-safety-prompt-bank](https://huggingface.co/datasets/richardyoung/code-safety-prompt-bank) (currently **private while under peer review**, so the link returns an error when you're not logged in; it opens as a gated dataset at camera-ready, and access is available on request now). Gating is a dual-use mitigation step; access is granted on request for refusal-rate benchmarking, safety-alignment research, interpretability work, and related defensive applications.
 
 ---
 
